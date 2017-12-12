@@ -18,8 +18,7 @@ const {hook} = new Kakka({
         [apiTopics]: (topics, state) => ({...state, topics})
     }),
     actionGate: {
-        prefix: API_PREFIX,
-        host: '192.168.110.236'
+        prefix: API_PREFIX
     },
     ready() {
         apiPullTopics();

@@ -1,8 +1,8 @@
 import ActiveDirectory from 'activedirectory';
 
 const config = {
-    url: 'ldap://directoryservice.wiley.com',
-    baseDN: 'dc=wiley,dc=com'
+    url: 'ldap://directoryservice.xxx.com',
+    baseDN: 'dc=xxx,dc=com'
 };
 const ad = new ActiveDirectory(config);
 
