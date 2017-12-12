@@ -1,0 +1,33 @@
+{
+  "name": "tryportal",
+  "version": "0.0.1",
+  "description": "",
+  "kakka": {
+    "server": {
+      "main": "src/nodeLauncher.js"
+    },
+    "web": {
+      "devServer": {
+        "port": 8081
+      },
+      "main": "src/webLauncher.js"
+    }
+  },
+  "scripts": {
+    "start": "node ./node_modules/kakka-node/bin/knode dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kakka-core": "^0.15.0",
+    "kakka-node": "^0.15.0",
+    "kakka-web": "^0.15.0",
+    "activedirectory": "^0.7.2",
+    "material-ui": "^0.19.4",
+    "ract": "0.0.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "uuid": "^3.1.0"
+  }
+}

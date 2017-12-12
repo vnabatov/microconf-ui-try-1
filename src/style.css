@@ -1,0 +1,21 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.layoutLeft {
+    float: left;
+}
+
+.layoutRight {
+    float: right;
+}
+
+.layoutClear {
+    clear: both;
+}
+
+.voteCounter {
+    padding: 15px;
+    font-weight: bold;
+}
